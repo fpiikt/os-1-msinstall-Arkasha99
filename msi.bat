@@ -1,4 +1,4 @@
-7z920-x64.msi /passive /norestart /le "C:\Users\NewUser\Desktop\7zip-log.txt" TARGETDIR="C:\Program Files\7-Zip"
+7z920-x64.msi /passive /norestart /lwe "C:\Users\NewUser\Desktop\7zip-log.txt" TARGETDIR="C:\Program Files\7-Zip"
 paint.net.4.2.10.install.exe /auto DESKTOPSHORTCUT=1 TARGETDIR="C:\Program Files\Graphics\Paint"
 inkscape-0.92.4-x64.msi /qr /norestart /lw "C:\Users\NewUser\Desktop\inkscape-log.txt" TARGETDIR="C:\Program Files\Graphics\Inkscape"
 LibreOffice_6.4.2_Win_x86.msi /passive /norestart /le "C:\Users\NewUser\Desktop\libreoffice-install-log.txt"

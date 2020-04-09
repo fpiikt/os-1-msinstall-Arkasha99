@@ -13,8 +13,8 @@ npp.7.8.1.Installer.x64.exe /S
 7z920-x64.msi /passive /norestart /le "C:\Users\NewUser\Desktop\7zip-log.txt" TARGETDIR="C:\Program Files\7-Zip"
 
 ```
-- </passive> - автоматический режим - только указатель хода выполнения
-- </norestart> - без перезагрузки
-- </lwe "C:\Users\NewUser\Desktop\7zip-log.txt"> - урнал установки с отображением все сообщений об ошибках в файл 7zip-log.txt
-- <TARGETDIR="C:\Program Files\7-Zip"> - каталог для установки
-### Установка
+-   /passive - автоматический режим - только указатель хода выполнения
+-   /norestart - без перезагрузки
+-   /lwe "C:\Users\NewUser\Desktop\7zip-log.txt" - урнал установки с отображением все сообщений об ошибках в файл 7zip-log.txt
+-   TARGETDIR="C:\Program Files\7-Zip" - каталог для установки
+### Установка 

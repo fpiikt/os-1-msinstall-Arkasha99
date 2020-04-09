@@ -59,5 +59,5 @@ jre-8u241-windows-i586.exe INSTALLCFG="C:\Users\NewUser\Downloads\conf.txt" /L C
 -   echo INSTALLDIR=C:\Java\JRE - каталог для установки java: "C:\Java\JRE";
 -   echo WEB_ANALYTICS=0 - отключить отправку веб-аналитики на сервера Oracle;
 -   echo WEB_JAVA=1 - разрешить запуск веб-приложений Java в браузере
--   > conf.txt - запись параметров в конфигурационный файл
--   jre-8u241-windows-i586.exe INSTALLCFG="C:\Users\NewUser\Downloads\conf.txt" /L C:\Users\Newuser\Downloads\jre-log.log - установка JRE в тихом режиме и сохранение логов в директории
+-   $TEXT > conf.txt - запись параметров в конфигурационный файл
+-   jre-8u241-windows-i586.exe INSTALLCFG="C:\Users\NewUser\Downloads\conf.txt" /L C:\Users\Newuser\Downloads\jre-log.log - установка JRE в тихом режиме и сохранение логов в указанной директории
